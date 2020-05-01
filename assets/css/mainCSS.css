@@ -1,0 +1,112 @@
+.navbar {
+  display: flex;
+  overflow: hidden;
+  background-color: #231709; 
+}
+
+.navbar a {
+  display: block; 
+  color: linen; 
+  text-align: center; 
+  padding: 20px 20px; 
+  text-decoration: none; /* Remove underline */
+}
+
+.navbar a:hover {
+  background-color: linen; 
+  color: #231709; 
+}
+
+.banner-image {
+  height: auto;
+  width: 100%;
+  margin: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+.banner-content{
+  display: flex;
+}
+
+.banner-text {
+  margin-top: -60px;
+  padding-inline-start: 200px;
+  color: linen;
+}
+
+.banner-icon{ 
+  width: auto; height: 100%;
+  /*overflow: hidden;*/
+  margin-top: -300px;
+  margin-left: 20px;
+  border-radius: 50%;
+  border: 10px #231709 solid;
+}
+
+#listened{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.recent{
+  width: 33%;
+  border: 30px white solid;
+}
+
+#artist {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#tracks{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.top {
+    width: 30%;
+    border: 30px white solid;
+}
+
+.flex-grid {
+  display: flex;
+}
+.flex-grid .col {
+  flex: 1;
+}
+.flex-grid-forths {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-grid-forths .col {
+  width: 25%;
+}
+@media (max-width: 400px) {
+  .flex-grid {
+    display: block;
+  }
+}
+
+footer {
+  text-align: center;
+  overflow: hidden; 
+  background: #231709;
+  color: linen; 
+  padding: 30px 30px; 
+}
+
+footer a{
+  color: linen; 
+  justify-content: space-evenly;
+  justify-content: center;
+  margin: auto;
+  padding: 20px 20px; 
+  text-decoration: none; /* Remove underline */
+}
+footer a:hover {
+  
+  background-color: linen; 
+  color: #231709; 
+}

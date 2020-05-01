@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang ="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="Contacts" content="A page to be used as a contact page">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Static Site Example index</title>        
+        <link href="assets/css/mainCSS.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+        <style>
+          body {
+            font-family: Arial, Helvetica, sans-serif;
+          }
+          </style>
+    </head>
+    <body>
+          <nav class="navbar">
+            <a href="index.html" title="Go to index">Go Home</a>
+          </nav>
+
+        <header>
+          <img class="banner-image"src="/assets/img/fret.jpg" alt="guitar fret" style="width:100%; height: 300px;">
+              <div class="banner-contents">
+                  <h1 class = "banner-text">Kristen Collins</h1>
+                <img class = "banner-icon" src ="assets/img/nirvana face.jpg" alt="Nirvana Face" style="width:100px; height: 100px;">
+              </div>
+        </header>
+
+            <form onsubmit = "return results();" method = "post">
+              <label>Enter Name:</label><br>
+              <input type="text" id="name" name ="name"><br><br>
+              <label>Enter Email:</label><br>
+              <input type="text" id="email" name="email"><br><br>
+              <label>Enter Phone:</label><br>
+              <input type="text" id="phone" name="phone"><br><br>
+              <br>
+              <input type="submit" id = "submit" value="Submit"><br><br>
+            </form> 
+
+      <div>
+
+      </div>
+      <footer>
+        <a href="#"><i class="fa fa-facebook-official"></i></a>
+        <a href="#"><i class="fa fa-pinterest-p"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-flickr"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <p class="web-link">
+        Powered by: <a href="https://hackertyper.net/" target="_blank">enter the matrix.com</a>
+        </p>
+      </footer>
+
+        <script src="assets/js/mainJS.js"></script>
+    </body>
+    
+</html>

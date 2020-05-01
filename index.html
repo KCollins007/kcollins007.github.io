@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang ="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="index" content="A page to be used as an index">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Static Site Example index</title>        
+        <link href="assets/css/mainCSS.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+        <style>
+          body {
+            font-family: Arial, Helvetica, sans-serif;
+          }
+          </style>
+    </head>
+    <body>
+          <nav class="navbar">
+            <a href="page2.html" title = "Go to page 2" >Contact</a>
+          </nav>
+
+        <header>
+          <img class="banner-image"src="/assets/img/fret.jpg" alt="guitar fret" style="width:100%; height: 200px">
+              <div class="banner-contents">
+                  <h1 class = "banner-text">Kristen Collins</h1>
+                <img class = "banner-icon" src ="assets/img/nirvana face.jpg" alt="Nirvana Face" style="width:100px; height: 100px;">
+              </div>
+        </header>
+
+      <h2>Recent Tracks:</h2><br>
+        <div id ="listened">
+          <div class="recent"></div>
+          <div class="recent"></div>
+          <div class="recent"></div>
+          <div class="recent"></div>
+          <div class="recent"></div>
+          <div class="recent"></div>
+          <div class="recent"></div>
+          <div class="recent"></div>
+          <div class="recent"></div>
+          <div class="recent"></div>
+        </div>
+
+      <h2>Top Artists:</h2><br>
+        <div id ="artist">
+          <div class="top">A Perfect Circle<img src="assets/img/A_Perfect_Circle-Thirteenth_Step.jpg">126 total listens</div>
+          <div class="top">Bikini Kill<img src="assets/img/BikiniKill.jpg">81 total listens</div>
+          <div class="top">Foo Fighters<img src="assets/img/FooFighters.jpg">162 total listens</div>
+          <div class="top">Nirvana<img src="assets/img/Nirvana_new_york.png">201 total listens</div>
+          <div class="top">Pearl Jam<img src="assets/img/PearlJam-Ten.jpg">101 total listens</div>
+          <div class="top">R.E.M<img src="assets/img/R.E.M._-_Automatic_for_the_People.jpg">99 total listens</div>
+          <div class="top">Seether<img src="assets/img/Seetherkarmaandeffect.jpg">145 total listens</div>
+          <div class="top">Tool<img src="assets/img/Tool_-_Lateralus.jpg">168 total listens</div>
+          <div class="top">Veruca Salt<img src="assets/img/VerucaSalt-AmericanThighs.jpg">111 total listens</div>
+          <div class="top">Pixies<img src="assets/img/Pixies-Doolittle.jpg">101 total listens</div>
+          </div>
+        </div>
+
+      <h2>Top Tracks:</h2><br>
+        <div id ="tracks">
+          <div class="top">The Noose<img src="assets/img/A_Perfect_Circle-Thirteenth_Step.jpg">126 total listens</div>
+          <div class="top">Alien She<img src="assets/img/BikiniKill.jpg">81 total listens</div>
+          <div class="top">Big Me<img src="assets/img/FooFighters.jpg">162 total listens</div>
+          <div class="top">Come as You Are<img src="assets/img/Nirvana_new_york.png">201 total listens</div>
+          <div class="top">Even Flow<img src="assets/img/PearlJam-Ten.jpg">101 total listens</div>
+          <div class="top">Everybody Hurts<img src="assets/img/R.E.M._-_Automatic_for_the_People.jpg">99 total listens</div>
+          <div class="top">The Remedy<img src="assets/img/Seetherkarmaandeffect.jpg">145 total listens</div>
+          <div class="top">The Grudge<img src="assets/img/Tool_-_Lateralus.jpg">168 total listens</div>
+          <div class="top">All Hail Me<img src="assets/img/VerucaSalt-AmericanThighs.jpg">111 total listens</div>
+          <div class="top">Wave of Mutilation<img src="assets/img/Pixies-Doolittle.jpg">101 total listens</div>
+          </div>
+        </div>
+
+          <form id="commentForm">
+            <label>Please enter your name:</label><br>
+            <input type="text" id="name" name ="name"><br><br>
+            <textarea id="words" rows="3" cols="80">Please leave a comment</textarea><br><br>
+            <button class="submit">Submit this comment</button><br><br>
+            <div id="commentDiv"></div>
+          </form>
+
+        <footer>
+            <a href="#"><i class="fa fa-facebook-official"></i></a>
+            <a href="#"><i class="fa fa-pinterest-p"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-flickr"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <p class="web-link">
+            Powered by: <a href="https://hackertyper.net/" target="_blank">enter the matrix.com</a>
+            </p>
+          </footer>
+
+          <script src="assets/js/mainJS.js"></script>
+    </body>
+
+    </html>
